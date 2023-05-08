@@ -1,0 +1,42 @@
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: RGB(66, 140, 209);
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    height: 30rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.avatar{
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.underline{
+    width: 100%;
+    background-color: RGB(66, 140, 209);
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(66,140,209,1) 35%, rgb(105, 180, 195) 100%);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: .5rem;
+    color: #fff;
+    width: 8rem;
+    height: 2rem;
+}
